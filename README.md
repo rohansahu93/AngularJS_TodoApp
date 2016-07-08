@@ -6,6 +6,6 @@ This is a simple todoApp, in which a note can be added , updated and deleted.
 
 How to use :
 
-1) Click on Add button to add new note
-2) Click cross image to delete particular note
-3) For updation of note edit title or content or both and click update button
+* Click on Add button to add new note
+* Click cross image to delete particular note
+* For updation of note edit title or content or both and click update button
