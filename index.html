@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="noteApp" >
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    
+<!--*********************stylesheet****************************-->
+  <link href = "app/css/bootstrap.min.css" rel = "stylesheet">
+  <link href = "app/css/default.css" rel="stylesheet">
+  <link href = "app/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+    
+</head>
+    
+<body id="mainPage">
+   <div class="mainheader">
+      <div class="container">
+          <div class="row">
+            <div class="topnav col-xs-12 col-sm-12 col-md-6 col-lg-6">
+           <a ui-sref="home">KEEPNOTE</a>
+            </div>
+              <div class="col-lg-6 topright">
+              <a ui-sref="trash" id="trashLink">Trash(0)</a>
+              </div>
+         </div>
+    </div>
+</div>
+    
+<div ui-view></div>
+    
+
+<!-----------------------Script started----------------------------->
+<script src="app/js/jquery-1.7.1.min.js"></script>
+<script src="app/js/angular.js"></script>
+<script src = "app/js/bootstrap.min.js"></script>
+<script src = "app/app.js"></script>
+<script src= "app/js/angular-ui-router.min.js"></script>
+<script src= "app/js/ngStorage.js"></script>
+<script src= "app/controllers/homeController.js"></script>
+<script src= "app/services/noteService.js"></script>
+</body>
+    
+</html>
